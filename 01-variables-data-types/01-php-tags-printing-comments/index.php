@@ -24,6 +24,15 @@
     $fullName = $firstname . " " . $lastname;
 
     var_dump($fullName);
+
+    $1image = "";                       // Doesn't work. No number allowed at the beginning
+    $image1 = "<img src=" . "http://pathtoimage.com" . " /> ";
+    $image1 = "<img src=\"http://pathtoimage.com\" />";
+    $image1 = "<img src='//pathtoimage.com' />";
+
+    $lesleysBday = "Lesley's Birthday";
+    $lesleysBday = 'Lesley\'s Birthday';    // fix it like this with single quotes
+
 ?>
 
 <!DOCTYPE html>
