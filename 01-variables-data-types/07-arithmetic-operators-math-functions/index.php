@@ -9,6 +9,22 @@
 | `/`      | Division       |
 | `%`      | Modulus        |
 */
+
+//echo( min(0, 150, 30, 20, -8, -200) );
+
+
+//echo( 15 * -1  );
+// same as this one below
+//echo(abs(-6.7));
+
+// echo(round(0.60));
+// echo(round(0.38));
+
+// echo(rand(1, 100000));
+
+$quotes = ['Keep going!', 'Believe in yourself.', 'You got this!'];
+echo $quotes[rand(0, count($quotes) - 1)];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
