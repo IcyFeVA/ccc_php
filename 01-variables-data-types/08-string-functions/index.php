@@ -1,5 +1,33 @@
 <?php
 $output = null;
+$string = "Hello there, World. How are you?";
+$ccn = "8480321545694587";
+
+$output = strlen($string);
+
+$output = str_word_count($string);
+
+$output = strpos($string, 'World');
+$index = strpos($string, 'World');
+
+// Find character at position 5
+$output = $string[4];
+
+// starting character plus the next 3
+$output = substr($string, $index, 3);
+
+// last 4 digits of the credit card number
+$output = substr( $ccn, strlen($ccn) - 4 );
+
+$output = str_replace('Hello', 'Howdy', $string);
+
+$output = strtolower($string);
+$output = strtoupper($string);
+$output = ucwords($string);
+
+$email = "    theiRemail@aDDress.com     ";
+$output = strtolower(trim($email));
+
 ?>
 
 <!DOCTYPE html>
